@@ -1,0 +1,23 @@
+.taskVoidListBody {
+  border-top: solid 1px var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  height: 15.25rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--gray-300);
+  font-weight: bold;
+  text-align: center;
+}
+
+.taskVoidListBody p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.taskVoidListBody p span {
+  font-weight: normal;
+}

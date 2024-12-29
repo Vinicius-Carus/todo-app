@@ -1,0 +1,12 @@
+.header{
+    width: 100%;
+    height: 10.813rem;
+    display: flex;
+    justify-content: center;
+}
+
+.headerImage {
+    width: 7.875rem;
+    height: 3rem;
+    margin-top: 6rem;
+}

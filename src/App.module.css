@@ -1,0 +1,52 @@
+.newTaskDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2.3rem;
+}
+
+.newTaskDiv .newTaskInput {
+  width: 39.875rem;
+}
+
+.taskListRoot {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.taskListContent {
+  width: 46rem;
+}
+
+.taskListHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+
+}
+
+.taskListHeader p {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.taskListHeader .countCreatedTasksText {
+  color: var(--blue);
+}
+
+.taskListHeader .countDoneTasksText {
+  color: var(--purple)
+}
+
+.countCreatedTasksNumber {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  box-sizing: content-box;
+  padding: 0.125rem 0.5rem;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+}
+

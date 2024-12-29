@@ -1,0 +1,33 @@
+.input {
+    width: 28.188rem;
+    background-color: var(--gray-500);
+    border-style: solid;
+    border-width: 1px;
+    height: 3.375rem;
+    border-color: var(--gray-700);
+    border-radius: 8px;
+    font-size: 0.75rem;
+    padding: 1rem;
+    color: var(--gray-100)
+}
+
+.input::placeholder {
+    color: var(--gray-300);
+}
+
+.input:focus-visible {
+    outline: none;
+    border-color: var(--purple-dark);
+}
+
+.input:valid {
+    width: 28.188rem;
+    background-color: var(--gray-500);
+    border-style: solid;
+    border-width: 1px;
+    height: 3.375rem;
+    border-color: var(--purple-dark);
+    border-radius: 8px;
+    font-size: 0.75rem;
+    padding: 1rem;
+    color: var(--gray-100)}
